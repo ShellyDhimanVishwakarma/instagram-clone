@@ -1,0 +1,70 @@
+.middleHomeSide{
+    width: 100%;
+    padding: 0px 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.storyBlock{
+    width: 630px;
+    height: 120px;
+  display: flex;
+  align-items: center;
+  gap: 17px;
+  overflow-x: auto;
+}
+.storyBlock::-webkit-scrollbar{
+    display: none;
+}
+.storyParticular{
+    width: 66px;
+    height: 66px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imageDIV{
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+    padding: 2px;
+    border: 1px solid purple;
+}
+.statusImg{
+    width: 100%;
+    height: 56px;
+    border-radius: 100%;
+}
+.profileName{
+    font-size: 10px;
+}
+@media screen and (min-width:320px) and (max-width:920px) {
+.middleHomeSide{
+    width: 100%;
+    padding: 0px 1px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.storyBlock{
+    width: 100vw;
+}
+.postSection{
+    width: 100%;
+}
+.mobileTopBar{
+    width: 100%;
+    display: inline;
+    padding: 0 20px;
+}
+.instalogoMobile{
+    width: 103px;
+    margin: 0 20px;
+}
+}
+

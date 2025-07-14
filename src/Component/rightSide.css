@@ -1,0 +1,68 @@
+.rightSideHome{
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+}
+.topProfileRight{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+}
+.imageRightSide{
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+}
+.imageRightProfile{
+    width: 90%;
+    border-radius: 100%;
+
+}
+.userNameBlock{
+    display: flex;
+    flex-direction: column;
+  } 
+  .userNameRightSide{
+     font-size: 14px;
+    font-weight: 500;
+    padding-top: 10px;
+  }
+  .userFullName{
+    color: #999999;
+    font-size: 14px;
+  }
+  .switchBtn{
+    color: #0095f6;
+    font-weight: 500;
+    font-size: 12px;
+  }
+  .leftRightProfile{
+    display: flex;
+    gap: 20px;
+  }
+  .bottomRightSide{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 30px;
+  }
+  .suggestedBlock{
+    display: flex;
+    justify-content: space-between;
+    color: #999999;
+    font-size: 14px;
+      font-weight: 500;
+  }
+ .followBlockRightSide{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    gap: 10px;
+ }
+ .topProfileRightBottomProfile{
+     display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}

@@ -1,0 +1,87 @@
+.postSection{
+    width: 60%;
+}
+.post{
+    width: 100%;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #999999;
+}
+.postInfo{
+    width: 100%;
+     display: flex;
+   align-items: center;
+   gap: 10px;
+   padding: 5px 0;
+}
+.postInfoImg{
+    width: 40px;
+    border-radius: 100%;
+}
+.postInfousername{
+    font-size: 12px;
+    font-weight: 600;
+}
+.timingInfo{
+    color: #999999;
+    font-size: 14px;
+}
+.postImage{
+    width: 100%;
+}
+.iconsBlock{
+    width: 100%;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.leftIcon{
+    display: flex;
+    gap: 15px;
+}
+.likeImg{
+    width: 20px;
+    border-radius: 100%;
+    position: absolute;
+}
+.imageLike{
+    position: relative;
+}
+.likeSection{
+    width: 100%;
+}
+.likeImg2{
+     width: 20px;
+    border-radius: 100%;
+    position: absolute;
+    left: 3%;
+}
+.noOfLikes{
+    position: absolute;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 40px;
+}
+.postAbout{
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+}
+.postAboutName{
+    font-size: 14px;
+    font-weight: 500;
+}
+.infoComment{
+    font-size: 14px;
+    margin-left: 10px;
+}
+.noOfComment{
+    color: #999999;
+    margin-top: 5px;
+    font-size: 14px;
+}
+.addComment{
+ color: #999999;
+    margin-top: 5px;
+    font-size: 14px;   
+}

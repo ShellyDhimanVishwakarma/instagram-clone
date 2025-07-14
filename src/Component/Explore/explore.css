@@ -1,0 +1,45 @@
+
+.explore-container {
+  padding: 30px;
+  background: #fff;
+  color: #000;
+}
+
+.explore-search {
+  width: 90%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.explore-tags {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  margin-bottom: 10px;
+}
+
+.explore-tags span {
+  background: #eee;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.explore-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+}
+
+.explore-img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 4px;
+}
